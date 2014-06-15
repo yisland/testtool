@@ -1,0 +1,7 @@
+excelFilePath: ./template.xls
+outputMargePath: ./tmp/aaa.xls
+outputMargeSheetName: test
+textfile: sample.txt
+columnRow: 1
+targetRow: 2
+targetSheet: test
