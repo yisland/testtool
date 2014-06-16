@@ -57,7 +57,7 @@ def selectTxtData
     txtHash = {}
 
     File.open(TEXTFILE).each do |row|
-        commaArray = row.split(",")
+        commaArray = row.strip.split(",")
 
         commaArray.each do |comma|
             equalArray = comma.split("=")
